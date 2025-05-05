@@ -53,7 +53,7 @@ Como parte do desenvolvimento, foi elaborada uma documentação detalhada de eng
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/seu-usuario/know-your-fan.git
+    git clone https://github.com/fabiomoretao/know-your-fan.git
     cd know-your-fan
     ```
 

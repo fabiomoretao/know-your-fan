@@ -180,11 +180,11 @@ const Analysis = () => {
 
         {/* Analytics Charts */}
         <div className="grid md:grid-cols-3 gap-6">
-          {/* Times Favoritos */}
+          {/* TInsteresses do fã */}
           <Card className="bg-[#0a0a1a]/90 border border-[#FFD700]/20 shadow-lg">
             <CardHeader className="border-b border-[#FFD700]/10 pb-3">
               <CardTitle className="text-xl text-white">
-                Times Favoritos
+                Interesses
               </CardTitle>
             </CardHeader>
             <CardContent className="p-6">

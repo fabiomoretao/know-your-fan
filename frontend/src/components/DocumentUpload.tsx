@@ -51,7 +51,7 @@ const DocumentUpload = ({ onNext, onBack }: DocumentUploadProps) => {
         <h2 className="text-xl font-semibold text-[#fff] mb-4">Verificação de Identidade</h2>
         <p className="text-gray-300 mb-6">
           Para garantir a segurança e personalização da sua experiência, precisamos verificar sua identidade.
-          Por favor, envie uma foto do seu documento de identidade (RG ou CNH) e uma selfie.
+          Por favor, envie uma foto do seu documento de identidade (RG ou CNH) frente e verso.
         </p>
       </div>
 
@@ -82,7 +82,7 @@ const DocumentUpload = ({ onNext, onBack }: DocumentUploadProps) => {
               <label className="flex flex-col items-center justify-center cursor-pointer w-full h-full">
                 <FileText className="h-10 w-10 text-gray-400 mb-2" />
                 <span className="text-gray-400">Clique para fazer upload</span>
-                <span className="text-gray-500 text-sm mt-1">RG ou CNH</span>
+                <span className="text-gray-500 text-sm mt-1">RG ou CNH (frente)</span>
                 <input
                   type="file"
                   className="hidden"
@@ -95,13 +95,13 @@ const DocumentUpload = ({ onNext, onBack }: DocumentUploadProps) => {
         </div>
 
         <div className="space-y-4">
-          <h3 className="text-lg font-medium text-white">Selfie</h3>
+          <h3 className="text-lg font-medium text-white">Documento de Identidade</h3>
           <Card className="bg-[#2A2F3C] border-dashed border-2 border-gray-500 p-6 flex flex-col items-center justify-center h-60">
-            {selfiePreview ? (
+          {idPreview ? (
               <div className="relative w-full h-full">
                 <img
-                  src={selfiePreview}
-                  alt="Selfie Preview"
+                  src={idPreview}
+                  alt="ID Preview"
                   className="w-full h-full object-contain"
                 />
                 <Button
@@ -120,7 +120,7 @@ const DocumentUpload = ({ onNext, onBack }: DocumentUploadProps) => {
               <label className="flex flex-col items-center justify-center cursor-pointer w-full h-full">
                 <Upload className="h-10 w-10 text-gray-400 mb-2" />
                 <span className="text-gray-400">Clique para fazer upload</span>
-                <span className="text-gray-500 text-sm mt-1">Uma selfie clara do seu rosto</span>
+                <span className="text-gray-500 text-sm mt-1">RG ou CNH (verso)</span>
                 <input
                   type="file"
                   className="hidden"

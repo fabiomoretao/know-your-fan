@@ -47,7 +47,7 @@ Devido a restrições de tempo inerentes ao desafio proposto, **o backend para e
 Como parte do desenvolvimento, foi elaborada uma documentação detalhada de engenharia de software, refletindo a implementação do frontend e as melhores práticas:
 
 *   **SRS (Software Requirements Specification):** Descreve os requisitos funcionais e não funcionais.
- Você pode encontrar a documentação detalhada (em formato .docx) na pasta [docs](./docs/) deste repositório.
+ Você pode encontrar a documentação detalhada (em formato .docx) na pasta [docs](./doc/) deste repositório.
 
 ## 🚀 Como Executar o Projeto Localmente
 
